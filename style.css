@@ -1,0 +1,23 @@
+.elements {
+  display: inline-block;
+}
+
+.about,
+.store,
+.images {
+  padding: 15px;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.google-img {
+  max-height: 92px;
+  max-width: 275px;
+}
+
+/* these are NOT a list */
+.bottom-elements {
+  display: inline-block;
+}
