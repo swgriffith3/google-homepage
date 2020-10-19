@@ -1,22 +1,51 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .elements {
   display: inline-block;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
 }
 
 .about,
 .store,
+.gmail,
 .images {
-  padding: 15px;
+  top: 5px;
+}
+
+.gmail,
+.images {
+  position: relative;
+  left: 70%;
 }
 
 .profile-img {
   border-radius: 50%;
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.pro-img {
+  position: relative;
+  display: inline-block;
+  left: 72%;
+  top: 15px;
 }
 
 .google-img {
   max-height: 92px;
   max-width: 275px;
+  margin: 10% 0 15px;
 }
 
-.bottom-elements {
+.btn {
   display: inline-block;
+  position: relative;
 }
