@@ -1,1 +1,1 @@
-This is an intoductory projest to HTML from The Odin Project.
+This is an intoductory project to HTML from The Odin Project.
