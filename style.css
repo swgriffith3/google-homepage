@@ -42,10 +42,32 @@ a {
 .google-img {
   max-height: 92px;
   max-width: 275px;
-  margin: 10% 0 15px;
+  margin: 11% 0 3%;
 }
 
 .btn {
   display: inline-block;
   position: relative;
+  margin: 15px;
+}
+
+.advertising,
+.about {
+  margin-left: 10px;
+}
+
+.privacy,
+.terms,
+.settings {
+  position: relative;
+  left: 50%;
+}
+
+.advertising,
+.business,
+.how-search-works,
+.privacy,
+.terms,
+.settings {
+  margin-top: 29%;
 }
